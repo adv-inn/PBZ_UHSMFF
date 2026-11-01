@@ -6,7 +6,8 @@ Source / 源码: https://github.com/adv-inn/PBZ_UHSMFF
 【中文】
 问题：
 支线「不灭侠胆」中，NPC 与小怪战斗结束后会转为敌对，击杀后应在遭遇位置生成记忆之花。
-击杀得太晚或 NPC 出现异常时，记忆之花不会生成，支线因此卡住。
+击杀得太晚或 NPC 出现异常时，记忆之花不会生成。
+任务需要交付 4 朵记忆之花，如果因此少于 4 朵，就无法交任务。
 
 用法：
 1. 先安装 UE4SS。
@@ -25,7 +26,8 @@ Source / 源码: https://github.com/adv-inn/PBZ_UHSMFF
 Problem:
 In the Undying Heroic Spirit side quest, NPCs turn hostile after fighting a group of enemies,
 and killing them should spawn a Memory Flower at the encounter spot. If they are killed too late
-or the NPC bugs out, the Memory Flower never spawns and the quest is soft-locked.
+or the NPC bugs out, the Memory Flower never spawns.
+The quest needs four Memory Flowers to turn in; with fewer than four you can't hand it in.
 
 Usage:
 1. Install UE4SS first.

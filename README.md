@@ -8,7 +8,7 @@ A [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) Lua mod for **Phantom Blade Zero
 
 ## The problem
 
-In *Undying Heroic Spirit* you find NPCs fighting a group of enemies. After the fight they turn hostile, and killing them should spawn their **Memory Flower** at the encounter spot. If you kill them too late, or the NPC bugs out, the flower never spawns and the quest is stuck.
+In *Undying Heroic Spirit* you find NPCs fighting a group of enemies. After the fight they turn hostile, and killing them should spawn their **Memory Flower** at the encounter spot. If you kill them too late, or the NPC bugs out, the flower never spawns. The quest needs four Memory Flowers to turn in; if a bug leaves you with fewer than four, you can't hand in the quest.
 
 ## What it does
 
@@ -53,7 +53,7 @@ This is an unofficial fan-made mod and is not affiliated with or endorsed by the
 
 适用于《影之刃零》的 UE4SS Lua mod，修复支线「不灭侠胆」卡任务的问题。
 
-**问题**：支线中的 NPC 与小怪战斗结束后会转为敌对，击杀后应在遭遇位置生成记忆之花。击杀得太晚或 NPC 出现异常时，记忆之花不会生成，任务无法推进。
+**问题**：支线中的 NPC 与小怪战斗结束后会转为敌对，击杀后应在遭遇位置生成记忆之花。击杀得太晚或 NPC 出现异常时，记忆之花不会生成。任务需要交付 4 朵记忆之花，如果因此少于 4 朵，就无法交任务。
 
 **功能**：游戏中按 **Ctrl+F11**，逐个检查六位 NPC。只给“已击杀但缺少记忆之花”的 NPC 补发记忆，其余状态不做任何改动。补发使用游戏自带的任务标签接口，支线照常推进。已在第六位（后街「护法」）的坏档上验证。
 
