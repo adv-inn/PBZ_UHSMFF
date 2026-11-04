@@ -2,6 +2,8 @@
 
 A [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) Lua mod for **Phantom Blade Zero** that fixes the *Undying Heroic Spirit* (不灭侠胆) side quest soft-lock.
 
+**Download on Nexus Mods:** https://www.nexusmods.com/phantombladezero/mods/259
+
 [中文说明](#中文)
 
 ![Restored Memory Flower](screenshot.png)
@@ -69,6 +71,8 @@ This is an unofficial fan-made mod and is not affiliated with or endorsed by the
 ## 中文
 
 适用于《影之刃零》的 UE4SS Lua mod，修复支线「不灭侠胆」卡任务的问题。
+
+**Nexus Mods 下载**：https://www.nexusmods.com/phantombladezero/mods/259
 
 **问题**：支线中的 NPC 与小怪战斗结束后会转为敌对，击杀后应在遭遇位置生成记忆之花。击杀得太晚或 NPC 出现异常时，记忆之花不会生成。任务需要交付 4 朵记忆之花，如果因此少于 4 朵，就无法交任务。另外，有的存档即使已经收集了 4 朵以上，任务也会卡在“自由探索、没有目标”的状态，既无法完成，也拿不到奖励。
 
