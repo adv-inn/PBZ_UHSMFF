@@ -48,8 +48,13 @@ F11 is not used because the game uses it to toggle window scaling.
 
 Results are written to `ue4ss\UE4SS.log` (search for `PBZ_UHSMFF`).
 
+## UE4SS stopped working after a game update?
+
+If no mod responds and `ue4ss\UE4SS.log` has no `GUObjectArray address:` line, the game update broke UE4SS's signature, not this mod. Replace `ue4ss\UE4SS_Signatures\GUObjectArray.lua` with the update-resistant version from [PBZ_UE4SS_GUObjectArray](https://github.com/adv-inn/PBZ_UE4SS_GUObjectArray). Check its README first to see whether it fits your UE4SS package.
+
 ## Changelog
 
+- **1.1.1** — README: how to fix UE4SS after a game update. Verified on the 2026-11-04 game update; no functional changes.
 - **1.1.0** — Added F10 to complete the quest and grant the reward. Restore hotkey changed from Ctrl+F11 to F8.
 - **1.0.0** — Ctrl+F11 restores missing memories.
 
@@ -90,7 +95,10 @@ This is an unofficial fan-made mod and is not affiliated with or endorsed by the
 
 结果写在 `ue4ss\UE4SS.log` 中（搜索 `PBZ_UHSMFF`）。
 
+**游戏更新后 UE4SS 失效？** 如果按键没有任何反应，且 `ue4ss\UE4SS.log` 中没有 `GUObjectArray address:` 这一行，说明是游戏更新导致 UE4SS 的签名失效，不是本 mod 的问题。可以用 [PBZ_UE4SS_GUObjectArray](https://github.com/adv-inn/PBZ_UE4SS_GUObjectArray) 中能扛住更新的版本替换 `ue4ss\UE4SS_Signatures\GUObjectArray.lua`。替换前请先看它的说明，确认适用于你的 UE4SS 整合包。
+
 **更新记录**：
+- **1.1.1**：说明中补充游戏更新后 UE4SS 失效的处理方法；已在 2026-11-04 游戏更新后验证，功能无改动。
 - **1.1.0**：新增 F10 完成任务并发放「不灭侠胆」；补发记忆的按键由 Ctrl+F11 改为 F8。
 - **1.0.0**：Ctrl+F11 补发缺失的记忆。
 

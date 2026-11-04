@@ -5,7 +5,7 @@
 -- Author: M4kis3Kurisu (Nexus Mods)
 -- License: MIT (see LICENSE)
 
-local VERSION = "1.1.0"
+local VERSION = "1.1.1"
 local TAG = "[PBZ_UHSMFF] "
 local function log(fmt, ...)
     print(TAG .. string.format(fmt, ...) .. "\n")

@@ -1,4 +1,4 @@
-PBZ_UHSMFF v1.1.0 —— 不灭侠胆记忆修复 / Undying Heroic Spirit Memory Flower Fix
+PBZ_UHSMFF v1.1.1 —— 不灭侠胆记忆修复 / Undying Heroic Spirit Memory Flower Fix
 Author / 作者: M4kis3Kurisu (Nexus Mods)
 License / 许可证: MIT (see LICENSE)
 Source / 源码: https://github.com/adv-inn/PBZ_UHSMFF
@@ -32,7 +32,15 @@ Source / 源码: https://github.com/adv-inn/PBZ_UHSMFF
 - 任务尚未向紫衣狼统领接取时，F10 不做任何改动。
 - 修改前请备份存档。
 
+游戏更新后 UE4SS 失效：
+如果按键没有任何反应，且 ue4ss\UE4SS.log 中没有 "GUObjectArray address:" 这一行，
+说明是游戏更新导致 UE4SS 的签名失效，不是本 mod 的问题。
+可以用下面仓库中能扛住更新的版本替换 ue4ss\UE4SS_Signatures\GUObjectArray.lua
+（替换前请先看它的说明，确认适用于你的 UE4SS 整合包）：
+https://github.com/adv-inn/PBZ_UE4SS_GUObjectArray
+
 更新记录：
+- 1.1.1：说明中补充游戏更新后 UE4SS 失效的处理方法；已在 2026-11-04 游戏更新后验证，功能无改动。
 - 1.1.0：新增 F10 完成任务并发放「不灭侠胆」；按键由 Ctrl+F11 改为 F8（补发记忆）。
 - 1.0.0：Ctrl+F11 补发缺失的记忆。
 
@@ -69,6 +77,14 @@ Notes:
 - If the quest has not been accepted from the Purple-Robed Wolf Leader yet, F10 changes nothing.
 - Back up your save before using it.
 
+UE4SS stopped working after a game update:
+If no mod responds and ue4ss\UE4SS.log has no "GUObjectArray address:" line, the game update
+broke UE4SS's signature, not this mod. Replace ue4ss\UE4SS_Signatures\GUObjectArray.lua with the
+update-resistant version from the repository below. Check its README first to see whether it
+fits your UE4SS package:
+https://github.com/adv-inn/PBZ_UE4SS_GUObjectArray
+
 Changelog:
+- 1.1.1: README: how to fix UE4SS after a game update. Verified on the 2026-11-04 game update; no functional changes.
 - 1.1.0: Added F10 to complete the quest and grant the reward; restore hotkey changed from Ctrl+F11 to F8.
 - 1.0.0: Ctrl+F11 restores missing memories.
