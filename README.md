@@ -1,5 +1,7 @@
 # PBZ_UHSMFF — Undying Heroic Spirit Memory Flower Fix
 
+[![Nexus Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.nexusmods.com%2Fv3%2Fgames%2Fphantombladezero%2Fmods%2F259&query=%24.data.stats.downloads&label=Nexus%20Downloads&color=orange&cacheSeconds=3600)](https://www.nexusmods.com/phantombladezero/mods/259)
+
 A [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) Lua mod for **Phantom Blade Zero** that fixes the *Undying Heroic Spirit* (不灭侠胆) side quest soft-lock.
 
 **Download on Nexus Mods:** https://www.nexusmods.com/phantombladezero/mods/259
